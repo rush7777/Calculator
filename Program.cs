@@ -10,7 +10,13 @@ Console.WriteLine($"Addtraction: {firsta + seconda}");
 Console.WriteLine($"Subtraction: {firsta - seconda}");
 Console.WriteLine($"Multiplication: {firsta * seconda}");
 Console.WriteLine($"Division: {firsta / seconda}");
-System.Console.WriteLine($"1st number equal to 2nd number: {firsta == seconda}");
-System.Console.WriteLine($"1st number greater to 2nd number: {firsta > seconda}");
-System.Console.WriteLine($"1st number smaller to 2nd number: {firsta < seconda}");
-System.Console.WriteLine($"1st number not equal to 2nd number: {firsta != seconda}");
+if(firsta == seconda){
+System.Console.WriteLine($"1st number is equal to 2nd number");
+}
+else if(firsta > seconda){System.Console.WriteLine($"1st number is greater than 2nd number");
+}
+else if(firsta < seconda){System.Console.WriteLine($"1st number is smaller than 2nd number");
+}
+else {
+  System.Console.WriteLine($"1st number is not equal to 2nd number");
+}
