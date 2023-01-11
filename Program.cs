@@ -56,3 +56,12 @@ switch (operators)
        System.Console.WriteLine("Operation NOT Found!");
     break;
 } */
+
+int counter = 0;
+while(firsta > counter){
+  counter++;
+  int need = counter % 2;
+  if(need == 0)
+  System.Console.WriteLine(counter);
+
+}
